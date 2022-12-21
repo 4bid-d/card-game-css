@@ -50,13 +50,13 @@ body{
   grid-gap: 10px;
   margin: 50px;
   justify-content: center;
-  perspective: 500px;
 }
 
 .card{
   position: relative;
   height: 175px;
   width: 125px;
+  perspective: 500px;
 }
 
 .card:hover{
@@ -83,11 +83,11 @@ body{
 }
 
 .card.visible .card-front{
-  transform: rotateY(0);
+  transform: rotateY(0deg);
 }
 
 .card.matched .card-value{
-  animation: dance 1s linear infinite 500ms;
+  animation: dance 1s linear infinite 50ms;
 }
 
 .overlay-text{
